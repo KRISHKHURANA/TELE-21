@@ -1,0 +1,39 @@
+venv/
+uploads/
+temp.jpg
+temp_*.pdf
+test.pdf
+__pycache__/
+.env
+*.pyc
+
+# Block all PDF files except specific ones if needed
+*.pdf
+
+# Block large binary files
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.iso
+
+# Block printer drivers and system files
+*.inf
+*.sys
+*.dll
+*.drv
+
+# Block temporary and cache files
+*.tmp
+*.temp
+*.cache
+*.log
+
+# Allow specific batch file
+!print_pdf.bat
